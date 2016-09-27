@@ -1,10 +1,10 @@
 Name:           mate-common
 Summary:        mate common build files
-Version:        1.15.0
+Version:        1.16.0
 Release:        1%{?dist}
 License:        GPLv3+
 URL:            http://mate-desktop.org
-Source0:        http://pub.mate-desktop.org/releases/1.15/mate-common-%{version}.tar.xz
+Source0:        http://pub.mate-desktop.org/releases/1.16/mate-common-%{version}.tar.xz
 BuildArch:      noarch
 BuildRequires:  automake autoconf
 Requires:       automake 
@@ -40,6 +40,9 @@ make %{?_smp_mflags} V=1
 %{_mandir}/man1/*
 
 %changelog
+* Tue Sep 27 2016 Jajauma's Packages <jajauma@yandex.ru> - 1.16.0-1
+- Update to latest upstream release
+
 * Thu Jun 09 2016 Wolfgang Ulbrich <chat-to-me@raveit.de> - 1.15.0-1
 - update to 1.15.0 release
 
