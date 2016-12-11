@@ -1,7 +1,7 @@
 Name:           mate-common
 Summary:        mate common build files
 Version:        1.16.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 URL:            http://mate-desktop.org
 Source0:        http://pub.mate-desktop.org/releases/1.16/mate-common-%{version}.tar.xz
@@ -40,6 +40,9 @@ make %{?_smp_mflags} V=1
 %{_mandir}/man1/*
 
 %changelog
+* Sun Dec 11 2016 Jajauma's Packages <jajauma@yandex.ru> - 1.16.0-2
+- Rebuilt for altarch
+
 * Tue Sep 27 2016 Jajauma's Packages <jajauma@yandex.ru> - 1.16.0-1
 - Update to latest upstream release
 
